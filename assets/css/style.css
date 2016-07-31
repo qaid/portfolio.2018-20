@@ -6,6 +6,8 @@
 	Dopetrope by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Freaked a bit by Qa'id Jacobs
+	qaidjacobs.com | @qaidj
 */
 
 /*********************************************************************************/
@@ -696,9 +698,9 @@
 
 	#banner
 	{
-		background: #CCE8F4 url('../images/pic01.jpg');
+		background: #CCE8F4 url('../images/wet-amsterdam.jpg');
 		background-position: center center;
-		background-size: auto 100%;
+		/*background-size: auto 100%;*/
 		background-repeat: no-repeat;
 		text-align: center;
 	}
@@ -706,7 +708,7 @@
 		#banner header
 		{
 			background-color: #252122;
-			background-color: rgba(34,30,31,0.98);
+			background-color: rgba(34,30,31,0.75);
 		}
 
 			#banner header h2
@@ -717,7 +719,7 @@
 
 			#banner header p
 			{
-				color: #d52349;
+				color: #23d538;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
@@ -732,6 +734,12 @@
 		position: relative;
 		background: #ffffff;
 		border-bottom: solid 1px #ccc;
+	}
+
+	#header-wrapper footer
+	{
+		margin: 0;
+		text-align: center;
 	}
 
 	#main-wrapper
@@ -832,7 +840,9 @@
 	#intro
 	{
 		text-align: center;
+		padding: 2em 0 0;
 	}
+
 
 /*********************************************************************************/
 /* Copyright                                                                     */
