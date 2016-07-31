@@ -1,0 +1,20 @@
+<!-- Header -->
+	<div id="header-wrapper">
+		<div id="header">
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						{% assign current = page.url | downcase | split: '/' %}
+						<li {% if current[1] == 'left-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/#designs">My Designs</a></li>
+						<li {% if current[1] == 'right-sidebar.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/#stories">My Stories</a></li>
+						<li><a href="https://blog.qaidjacobs.com">My Writing</a></li>
+					</ul>
+				</nav>
+
+				<div class="header-img">
+					<img src="{{ site.baseurl }}/assets/images/pic11.jpg">
+				</div>
+
+		</div>
+	</div>
