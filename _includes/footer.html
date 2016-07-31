@@ -8,10 +8,10 @@
 									<h2>Things I recently published</h2>
 								</header>
 								<ul class="dates">
-								{% for post in site.posts offset: 0 limit: 5 %}
+								{% for post in site.medium reversed offset: 1 limit: 4 %}
 									<li>
 										<span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
-										<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+										<h3><a href="{{ post.external_url }}">{{ post.title }}</a></h3>
 										{{ post.excerpt }}
 									</li>
 								{% endfor %}
@@ -31,18 +31,9 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="4u">
-							<section>
 
-							</section>
-						</div>
-						<div class="4u">
-							<section>
-
-							</section>
-						</div>
-						<div class="4u">
-							<section>
+						<div class="12u">
+							<section style="text-align: center">
 								<header>
 									<h2>Hit me on the buzz</h2>
 								</header>
@@ -68,6 +59,6 @@
 					</div>
 				</section>
 			</div>
-
+	{% include google_analytics.html %}
 	</body>
 </html>
