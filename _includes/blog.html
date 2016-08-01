@@ -11,7 +11,7 @@
 						{% for post in site.posts reverse offset: 0 limit: 4 %}
 							<div class="6u">
 								<section class="box">
-									<a href="#" class="image featured"><img src="{{ site.baseurl }}{{ post.featured }}" alt="" /></a>
+									<div class="image featured"><img src="{{ site.baseurl }}{{ post.featured }}" alt="" /></div>
 									<header>
 										<h3>{{ post.title }}</h3>
 									</header>
