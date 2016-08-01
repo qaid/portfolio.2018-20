@@ -10,7 +10,7 @@
 
 	body,input,textarea,select
 	{
-		font-size: 13pt;
+		font-size: 15pt;
 		line-height: 1.75em;
 	}
 
@@ -21,7 +21,7 @@
 
 	h3
 	{
-		font-size: 1.35em;
+		font-size: 1.30em;
 	}
 
 	/* Section/Article */
@@ -31,16 +31,21 @@
 			margin: 0 0 1.5em 0;
 		}
 
-			header > p
-			{
-				margin: 0.5em 0 0 0;
-				padding-bottom: 0.5em;
-			}
+		header > p
+		{
+			margin: 0.5em 0 0 0;
+			padding-bottom: 0.5em;
+		}
 
-			header.major
-			{
-				margin: 0 0 3em 0;
-			}
+		section.designs header.major
+		{
+			padding-bottom: 2em;
+		}
+
+		header.major
+		{
+			margin: 0;
+		}
 
 		footer
 		{
@@ -48,6 +53,12 @@
 		}
 
 	/* Box */
+		section.stories section.box
+		{
+			margin-top: 2.5em;
+		}
+
+
 
 		.box
 		{
@@ -166,12 +177,12 @@
 
 	#main-wrapper
 	{
-		padding: 4em 0 4em 0;
+		padding: 2em 0 4em 0;
 	}
 
 	#footer-wrapper
 	{
-		padding: 4em 0 4em 0;
+		padding: 4em 0 0 0;
 	}
 
 		#footer-wrapper header

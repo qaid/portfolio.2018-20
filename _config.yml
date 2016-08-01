@@ -2,3 +2,5 @@ name: Qa'id Jacobs - Product and System Designer
 description: The professional portfolio of Qa'id Jacobs
 paginate: 10
 baseurl: ''
+collections:
+- medium

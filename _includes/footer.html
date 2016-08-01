@@ -8,10 +8,10 @@
 									<h2>Things I recently published</h2>
 								</header>
 								<ul class="dates">
-								{% for post in site.posts offset: 0 limit: 5 %}
+								{% for post in site.medium reversed offset: 1 limit: 4 %}
 									<li>
 										<span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
-										<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+										<h3><a href="{{ post.external_url }}">{{ post.title }}</a></h3>
 										{{ post.excerpt }}
 									</li>
 								{% endfor %}
@@ -23,7 +23,7 @@
 								<header>
 									<h2>Who&rsquo;s this guy?</h2>
 								</header>
-								<a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/qj-in-les-rues.png" alt="Qa'id dans les rues" /></a>
+								<a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/roof-top-boat-top.jpg" alt="good times" /></a>
 								<p>
 									My name is Qa&rsquo;id. I'm a designer and thinker cut from a different cloth. I've done creative and strategic work in 5 different industries over the past 15 years. I've got strong opinions that are usually loosely held. I believe that Time is short and Life is grand; let's do something meaningful.
 								</p>
@@ -31,25 +31,16 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="4u">
-							<section>
 
-							</section>
-						</div>
-						<div class="4u">
-							<section>
-
-							</section>
-						</div>
-						<div class="4u">
-							<section>
+						<div class="12u">
+							<section style="text-align: center">
 								<header>
 									<h2>Hit me on the buzz</h2>
 								</header>
 								<ul class="social">
-									<li><a class="icon fa-linkedin" aria-hidden="true" href="#"><span class="label">LinkedIn</span></a></li>
-									<li><a class="icon fa-twitter" aria-hidden="true" href="#"><span class="label">Twitter</span></a></li>
-									<li><a class="icon fa-soundcloud" aria-hidden="true" href="#"><span class="label">SoundCloud</span></a></li>
+									<li><a class="icon fa-linkedin" aria-hidden="true" href="https://linkedin.com/in/qaidjacobs"><span class="label">LinkedIn</span></a></li>
+									<li><a class="icon fa-twitter" aria-hidden="true" href="https://twitter.com/qaidj"><span class="label">Twitter</span></a></li>
+									<li><a class="icon fa-soundcloud" aria-hidden="true" href="https://soundcloud.com/humble"><span class="label">SoundCloud</span></a></li>
 								</ul>
 							</section>
 						</div>
@@ -68,6 +59,6 @@
 					</div>
 				</section>
 			</div>
-
+	{% include google_analytics.html %}
 	</body>
 </html>

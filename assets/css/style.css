@@ -17,7 +17,6 @@
 	body
 	{
 		background: #252122;
-		background-image: url('images/bg02.png');
 	}
 
 		body.is-loading * {
@@ -111,6 +110,11 @@
 	p, ul, ol, dl, table
 	{
 		margin-bottom: 2em;
+	}
+
+	p img
+	{
+		width: 100%;
 	}
 
 	/* Form */
@@ -745,7 +749,7 @@
 	#main-wrapper
 	{
 		position: relative;
-		background: #f7f7f7 url('images/bg02.png');
+		background: #f7f7f7;
 	}
 
 		#main-wrapper:before
@@ -755,7 +759,6 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.png');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
@@ -767,7 +770,7 @@
 
 			#main-wrapper .major h2
 			{
-				background: #f7f7f7 url('images/bg02.png');
+				background: #f7f7f7;
 			}
 
 	#footer-wrapper
@@ -783,7 +786,6 @@
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url('images/bg01.png');
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;

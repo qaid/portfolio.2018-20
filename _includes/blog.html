@@ -3,12 +3,12 @@
 			<div class="12u"><a name="stories"></a>
 
 				<!-- Blog -->
-					<section>
+					<section class="stories">
 						<header class="major">
 							<h2>My Stories</h2>
 						</header>
 						<div class="row">
-						{% for post in site.posts offset: 0 limit: 2 %}
+						{% for post in site.posts reverse offset: 0 limit: 4 %}
 							<div class="6u">
 								<section class="box">
 									<a href="#" class="image featured"><img src="{{ site.baseurl }}{{ post.featured }}" alt="" /></a>
