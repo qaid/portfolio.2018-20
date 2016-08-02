@@ -8,7 +8,7 @@ The Jekyll template is based on an artifact from [Cloud Cannon](http://cloudcann
 
 ## Credits
 Icons:
-	Font Awesome (fortawesome.github.com/Font-Awesome)
+- [Font Awesome](https://fortawesome.github.com/Font-Awesome)
 
 Other tech:
 - [jQuery](https://jquery.com)
