@@ -1,34 +1,35 @@
 
-		<div class="row">
-			<div class="12u"><a name="stories"></a>
+<div class="row">
+	<div class="12u"><a name="stories"></a>
 
-				<!-- Blog -->
-					<section class="stories">
-						<header class="major">
-							<h2>My Stories</h2>
-						</header>
-						<div class="row">
-						{% for post in site.posts reverse offset: 0 limit: 4 %}
-							<div class="6u">
-								<section class="box">
-									<div class="image featured"><img src="{{ site.baseurl }}{{ post.featured }}" alt="" /></div>
-									<header>
-										<h3>{{ post.title }}</h3>
-									</header>
-									{{ post.excerpt }}
-									<footer>
-										<ul class="actions">
-											<li><a href="{{ site.baseurl }}{{ post.url }}" class="button icon fa-file-text">More of this story</a></li>
+		<!-- Blog -->
+			<section class="stories">
+				<header class="major">
+					<h2>My Stories</h2>
+				</header>
+				<div class="row">
+				{% for post in site.posts reverse offset: 0 limit: 4 %}
+					<div class="6u">
+						<section class="box">
+							<div class="image featured"><img src="{{ site.baseurl }}{{ post.featured }}" alt="" /></div>
+							<header>
+								<h3>{{ post.title }}</h3>
+							</header>
+							{{ post.excerpt }}
+							<footer>
+								<ul class="actions">
+									<li class="mobile-side-margin"><a href="{{ site.baseurl }}{{ post.url }}" class="button icon fa-file-text">This story</a></li>
 
-										</ul>
-									</footer>
-								</section>
-							</div>
-						{% endfor %}
-						</div>
-					</section>
+								</ul>
+							</footer>
+						</section>
+					</div>
+				{% endfor %}
+				</div>
+			</section>
 
-			</div>
-		</div>
 	</div>
+</div>
+
+</div>
 </div>
