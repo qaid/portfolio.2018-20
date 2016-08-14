@@ -84,7 +84,8 @@
 				margin-top: 0.5em;
 			}
 
-			ul.actions li.mobile-side-margin
+			ul.actions li.mobile-side-margin,
+			ul.actions li:first-child.mobile-side-margin 
 			{
 				margin-left: 2em;
 				margin-right: 2em;
