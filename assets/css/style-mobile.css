@@ -84,6 +84,12 @@
 				margin-top: 0.5em;
 			}
 
+			ul.actions li.mobile-side-margin
+			{
+				margin-left: 2em;
+				margin-right: 2em;
+			}
+
 			ul.actions li:first-child
 			{
 				margin-top: 0;
