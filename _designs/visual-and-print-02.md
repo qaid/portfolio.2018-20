@@ -1,7 +1,6 @@
 ---
 title:  Jazz Then Back Again
 featured: /assets/images/jazz-then-back-again.png
-permalink: visual-and-print.html
 genre: visual-and-print
 layout: design-detail
 ---

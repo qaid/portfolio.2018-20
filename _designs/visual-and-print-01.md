@@ -1,7 +1,6 @@
 ---
 title: FND SND
 featured: /assets/images/fnd-snd-wide.png
-permalink: visual-and-print.html
 genre: visual-and-print
 layout: design-detail
 ---
