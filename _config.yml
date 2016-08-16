@@ -4,3 +4,4 @@ paginate: 10
 baseurl: ''
 collections:
 - medium
+- designs
