@@ -8,7 +8,7 @@
 									<h2>Things I recently published</h2>
 								</header>
 								<ul class="dates">
-								{% for post in site.medium reversed offset: 0 limit: 4 %}
+								{% for post in site.medium reversed offset: 0 limit: 5 %}
 									<li>
 										<span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
 										<h3><a href="{{ post.external_url }}">{{ post.title }}</a></h3>
