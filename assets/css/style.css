@@ -16,7 +16,7 @@
 
 	body
 	{
-		background: #252122;
+		background: #2B314C;
 	}
 
 		body.is-loading * {
@@ -707,7 +707,6 @@
 
 	#banner
 	{
-		background: #000;
 		background-position: center center;
 		/*background-size: auto 100%;*/
 		background-repeat: no-repeat;
@@ -720,8 +719,9 @@
 
 			#banner header h2
 			{
-				color: #fff;
+				color: #FAB941;
 				font-weight: 700;
+				text-shadow: 1px 1px 1px #000;
 			}
 
 			#banner header p

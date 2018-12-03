@@ -201,6 +201,9 @@
 
 	#header
 	{
+		background-image: url(/assets/images/hero-bg-with-ux-icons.png);
+		background-size: cover;
+		background-repeat: no-repeat;
 		text-align: center;
 	}
 
