@@ -1,38 +1,45 @@
-
 <div class="row">
-	<div class="12u"><a name="stories"></a>
+  <div class="12u">
+    <section class="designs">
 
-		<!-- Stories -->
-			<section class="stories">
-				<header class="major">
-					<h2>My Stories</h2>
-				</header>
-				<div class="row">
+      <div class="row">
+        <div class="4u">
+          <section class="box">
+            <a href="2016/07/10/nipo.html" class="image featured"><img src="{{ site.baseurl }}/assets/images/gallery-of-ideas.jpg" alt="A collaborative process of design" /></a>
+            <header>
+              <h3>Redesigning a flagship product</h3>
+              <h4 class="skillset">#mystories</h4>
+            </header>
+            <p>In order to prioritize the right ideas, I organized Design Sprints, prototyped ideas, iterated on them, and shipped.</p>
+          </section>
+        </div>
+        <div class="4u">
+          <section class="box">
+            <a href="2016/07/09/booking.html" class="image featured"><img src="{{ site.baseurl }}/assets/images/booking-interface-design.png" alt="Interface design for Booking.com" /></a>
+            <header>
+              <h3>Reducing noise; increasing conversions</h3>
+              <h4 class="skillset">#mystories</h4>
+            </header>
+            <p>At Booking.com I designed flows and UI to speed users through the funnel with confidence in their decisions.</p>
+          </section>
+        </div>
+        <div class="4u">
+          <section class="box">
+            <a href="2016/07/03/ccr.html" class="image featured"><img src="{{ site.baseurl }}/assets/images/ccr-website.png"" alt="Website design for advocacy" /></a>
+            <header>
+              <h3>Telling stories; inspiring action</h3>
+              <h4 class="skillset">#mystories</h4>
+            </header>
+            <p>I designed physical and digital media which told compelling stories to inspire action.</p>
+          </section>
+        </div>
+      </div>
 
-				{% for post in site.posts reverse offset: 0 limit: 8 %}
-					{% if post.genre == 'story' %}
-							<div class="6u">
-								<section class="box">
-									<div class="image featured"><img src="{{ site.baseurl }}{{ post.featured }}" alt="" /></div>
-									<header>
-										<h3>{{ post.title }}</h3>
-									</header>
-									{{ post.excerpt }}
-									<footer>
-										<ul class="actions">
-											<li class="mobile-side-margin"><a href="{{ site.baseurl }}{{ post.url }}" class="button icon fa-file-text">This story</a></li>
-
-										</ul>
-									</footer>
-								</section>
-							</div>
-					{% endif %}
-				{% endfor %}
-				</div>
-			</section>
-
-	</div>
+    </section>
+  </div>
 </div>
+
+
 
 </div>
 </div>
