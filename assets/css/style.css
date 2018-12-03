@@ -36,7 +36,7 @@
 	{
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: #5d5d5d;
+		color: #000;
 	}
 
 	strong, b
@@ -115,6 +115,11 @@
 	p img
 	{
 		width: 100%;
+	}
+
+	h4.skillset {
+		color: #352F7E;
+		font-weight: normal;
 	}
 
 	/* Form */
@@ -274,7 +279,7 @@
 			{
 				position: relative;
 				text-align: center;
-				border-top: solid 1px #ccc;
+				/*border-top: solid 1px #ccc;*/
 				top: 1em;
 			}
 
@@ -702,7 +707,7 @@
 
 	#banner
 	{
-		background: #CCE8F4 url('../images/wet-amsterdam.jpg');
+		background: #000;
 		background-position: center center;
 		/*background-size: auto 100%;*/
 		background-repeat: no-repeat;
@@ -711,8 +716,6 @@
 
 		#banner header
 		{
-			background-color: #252122;
-			background-color: rgba(34,30,31,0.75);
 		}
 
 			#banner header h2

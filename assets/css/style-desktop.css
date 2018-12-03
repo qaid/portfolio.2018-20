@@ -345,8 +345,8 @@
 	#banner
 	{
 		position: relative;
-		padding: 10em 0;
-		margin: 2.5em 0 0 0;
+		padding: 1em;
+		margin: 1em;
 	}
 
 		#banner header
@@ -356,10 +356,22 @@
 			border-radius: 5px;
 		}
 
-			#banner header h2
+			#banner header h2.name
+			{
+				font-size: 3.5em;
+				margin-bottom: 1em;
+			}
+
+			#banner header h2.role
 			{
 				font-size: 2.5em;
-				margin: 0 0 0.65em 0;
+				margin-bottom: 0.5em;
+			}
+
+			#banner header h2.factoid
+			{
+				font-size: 1.75em;
+				margin: 0;
 			}
 
 			#banner header p
