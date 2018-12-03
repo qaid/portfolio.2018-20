@@ -502,21 +502,9 @@
 					text-align: center;
 					color: #fff;
 					line-height: 1em;
-					border-top-left-radius: 5px;
-					border-bottom-left-radius: 5px;
+					border-radius: 5px;
 					padding: 0.5em 0.75em 0 1em;
 				}
-
-					ul.dates .date:after
-					{
-						content: '';
-						position: absolute;
-						bottom: 0;
-						right: -1.2em;
-						border-left: solid 1.25em #d52349;
-						border-top: solid 1.8em transparent;
-						border-bottom: solid 1.8em transparent;
-					}
 
 					ul.dates .date strong
 					{
