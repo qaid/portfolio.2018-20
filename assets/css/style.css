@@ -16,7 +16,7 @@
 
 	body
 	{
-		background: #252122;
+		background: #f7f7f7;
 	}
 
 		body.is-loading * {
@@ -36,7 +36,7 @@
 	{
 		font-family: 'Source Sans Pro';
 		font-weight: 300;
-		color: #5d5d5d;
+		color: #000;
 	}
 
 	strong, b
@@ -115,6 +115,11 @@
 	p img
 	{
 		width: 100%;
+	}
+
+	h4.skillset {
+		color: #352F7E;
+		font-weight: normal;
 	}
 
 	/* Form */
@@ -274,13 +279,13 @@
 			{
 				position: relative;
 				text-align: center;
-				border-top: solid 1px #ccc;
 				top: 1em;
 			}
 
 				header.major h2
 				{
 					background: #fff;
+					font-size: 2em;
 					position: relative;
 					top: -0.65em;
 					display: inline;
@@ -396,6 +401,7 @@
 			{
 				display: block;
 				width: 100%;
+				border-radius: 5px;
 			}
 
 			.image.centered
@@ -492,29 +498,18 @@
 					position: absolute;
 					left: 0;
 					top: 1.3em;
-					background-color: #d52349;
+					background-color: #2B314C;
 					height: 3.5em;
 					text-align: center;
-					color: #fff;
+					color: #81869E;
 					line-height: 1em;
-					border-top-left-radius: 5px;
-					border-bottom-left-radius: 5px;
-					padding: 0.5em 0.75em 0 1em;
+					border-radius: 5px;
+					padding: 0.5em 0.75em 0 0.75em;
 				}
-
-					ul.dates .date:after
-					{
-						content: '';
-						position: absolute;
-						bottom: 0;
-						right: -1.2em;
-						border-left: solid 1.25em #d52349;
-						border-top: solid 1.8em transparent;
-						border-bottom: solid 1.8em transparent;
-					}
 
 					ul.dates .date strong
 					{
+						color: #81869E;
 						display: block;
 						font-size: 1.75em;
 						padding-top: 0.15em;
@@ -528,6 +523,7 @@
 				ul.dates p
 				{
 					margin: 0;
+					color: #2B314C;
 				}
 
 				ul.dates li:first-child
@@ -561,6 +557,7 @@
 			{
 				overflow: hidden;
 				cursor: default;
+				text-align: center;
 			}
 
 				ul.social li
@@ -622,6 +619,116 @@
 				{
 					padding-left: 0.25em;
 				}
+
+
+/*********************************************************************************/
+/* Full Width Items                                                                         */
+/*********************************************************************************/
+
+section.designs div.row 
+{
+	margin: 0 0 1em 0;
+}
+
+section.full-width-casestudy 
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	background: #fff;
+	border-radius: 5px;
+	border: 1px solid lightgray;
+	transition: box-shadow .3s;
+	padding: 0px !important;
+}
+
+/*section.full-width-casestudy:hover 
+{
+	box-shadow: 0 0 11px rgba(33,33,33,.2);
+}*/
+
+	.casestudy
+	{
+		order: 0;
+	}
+
+	.casestudy.image
+	{
+	}
+
+		.casestudy.image.visualdesign
+		{
+			background-image: url(/assets/images/fnd-snd-square.png);
+			background-position: bottom;
+			background-size: cover;
+			background-repeat: no-repeat;
+			border-radius: 5px 0 0 5px;
+		}
+
+		.casestudy.image.uxdesign
+		{
+			background-image: url(/assets/images/gallery-of-ideas-centered.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			border-radius: 5px 0 0 5px;
+		}
+
+		.casestudy.image.designmentor
+		{
+			background-image: url(/assets/images/mentoring.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			border-radius: 5px 0 0 5px;
+		}
+
+		.casestudy.image.stagepresenter
+		{
+			background-image: url(/assets/images/presenting.png);
+			background-position: bottom;
+			background-size: cover;
+			background-repeat: no-repeat;
+			border-radius: 5px 0 0 5px;
+		}
+
+	.casestudy.text
+	{
+		padding: 0 1em 0 1em;
+	}
+
+	.casestudy.text h2 
+	{
+		padding-top: 1em;
+		font-size: 2em;
+		color: #2B314C;
+	}
+
+	.casestudy.text h2 a
+	{
+		text-decoration: none;
+	} 
+
+	.casestudy.text p
+	{
+		font-size: 1.5em;
+		margin: 0;
+		padding: 1em 0;
+		color: #3A4268;
+	}
+
+	.casestudy.text ul.skillset
+	{
+		display: inline-flex;
+		flex-wrap: wrap;
+	}
+
+	.casestudy.text ul.skillset li
+	{
+		margin-right: 1em;
+		color: #3A4268;
+		font-weight: 700;
+	} 
 
 /*********************************************************************************/
 /* Icons                                                                         */
@@ -702,7 +809,6 @@
 
 	#banner
 	{
-		background: #CCE8F4 url('../images/wet-amsterdam.jpg');
 		background-position: center center;
 		/*background-size: auto 100%;*/
 		background-repeat: no-repeat;
@@ -711,14 +817,13 @@
 
 		#banner header
 		{
-			background-color: #252122;
-			background-color: rgba(34,30,31,0.75);
 		}
 
 			#banner header h2
 			{
-				color: #fff;
+				color: #FAB941;
 				font-weight: 700;
+				text-shadow: 1px 1px 5px #1d2135;
 			}
 
 			#banner header p
@@ -737,7 +842,6 @@
 	{
 		position: relative;
 		background: #ffffff;
-		border-bottom: solid 1px #ccc;
 	}
 
 	#header-wrapper footer
@@ -791,48 +895,47 @@
 			opacity: 0.5;
 		}
 
+		#footer-wrapper p
+		{
+			color: #2B314C;
+		}
+
 		#footer-wrapper a
 		{
-			color: #c5c4c4;
+			color: #2B314C;
 		}
 
 		#footer-wrapper h2,
 		#footer-wrapper h3,
+		#footer-wrapper h3 a,		
 		#footer-wrapper h4,
 		#footer-wrapper h5,
 		#footer-wrapper h6,
-		#footer-wrapper strong,
-		#footer-wrapper b
-		{
-			color: #fff;
-		}
-
 		#footer-wrapper h1 a,
 		#footer-wrapper h2 a,
-		#footer-wrapper h3 a,
 		#footer-wrapper h4 a,
 		#footer-wrapper h5 a,
 		#footer-wrapper h6 a
 		{
-			color: inherit;
+			color: #2B314C;
 		}
 
 		#footer-wrapper ul.contact li
 		{
-			border-top-color: #353434;
-			border-top-color: rgba(255,255,255,0.05);
+			border-top-color: #2B314C;
+			border-top-color: rgba(43,49,76,1);
 		}
 
 		#footer-wrapper ul.dates li
 		{
-			border-top-color: #353434;
-			border-top-color: rgba(255,255,255,0.05);
+			border-top-color: #2B314C;
+			border-top-color: rgba(43,49,76,1);
 		}
 
 		#footer-wrapper ul.divided li
 		{
-			border-top-color: #353434;
-			border-top-color: rgba(255,255,255,0.05);
+			border-top-color: #2B314C;
+			border-top-color: rgba(43,49,76,1);
 		}
 
 /*********************************************************************************/
@@ -852,14 +955,20 @@
 
 	#copyright
 	{
+		color: #2B314C;
 		text-align: center;
 	}
 
 		#copyright .links
 		{
 			display: inline-block;
-			background: #2C2929;
-			background: rgba(255,255,255,0.05);
+			background: #81869E;
+			background: rgba(129,134,158,1);
 			border-radius: 5px;
 			margin: 0;
+		}
+
+		#copyright .links a 
+		{
+			color: #FBC86B;
 		}

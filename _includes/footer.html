@@ -5,12 +5,12 @@
 						<div class="8u">
 							<section>
 								<header>
-									<h2>Things I recently published</h2>
+									<h2>Some of my writing</h2>
 								</header>
 								<ul class="dates">
-								{% for post in site.medium reversed limit:4 %}
+								{% for post in site.medium reversed limit:6 %}
 									<li>
-										<span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
+										<span class="date">{{ post.date | date: "%b"}} <strong>{{ post.date | date: "%d"}}</strong></span>
 										<h3><a href="{{ post.external_url }}">{{ post.title }}</a></h3>
 										{{ post.excerpt }}
 									</li>
@@ -21,26 +21,17 @@
 						<div class="4u">
 							<section>
 								<header>
-									<h2>Who&rsquo;s this guy?</h2>
+									<h2>About Me</h2>
 								</header>
-								<a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/qaid-jacobs-sitting-w367.jpg" alt="Qaid Jacobs up close and personal" /></a>
+								<a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/qaid-jacobs-in-chair.jpg" alt="Qaid Jacobs up close and personal" /></a>
 								<p>
-									My name is Qa&rsquo;id. I'm a designer and thinker cut from a different cloth. I've done creative and strategic work in 5 different industries over the past 15 years. I've got strong opinions that are usually loosely held. I believe that Time is short and Life is grand; let's do something meaningful.
+									My name is Qa&rsquo;id. I'm a designer and thinker cut from a different cloth. I've done creative and strategic work in 5 different industries over the past 15 years. I've got strong opinions that are usually loosely held. I believe that Time is short and Life is grand. Connect with me and let's do something meaningful.
 								</p>
-							</section>
-						</div>
-					</div>
-					<div class="row">
-
-						<div class="12u">
-							<section style="text-align: center">
-								<header>
-									<h2>Hit me on the buzz</h2>
-								</header>
 								<ul class="social">
 									<li><a class="icon fa-linkedin" aria-hidden="true" href="https://linkedin.com/in/qaidjacobs"><span class="label">LinkedIn</span></a></li>
 									<li><a class="icon fa-twitter" aria-hidden="true" href="https://twitter.com/qaidj"><span class="label">Twitter</span></a></li>
-									<li><a class="icon fa-soundcloud" aria-hidden="true" href="https://soundcloud.com/humble"><span class="label">SoundCloud</span></a></li>
+									<li><a class="icon fa-instagram" aria-hidden="true" href="https://instagram.com/qaid"><span class="label">SoundCloud</span></a></li>
+									<li><a class="icon fa-envelope" aria-hidden="true" href="mailto:contact.qaid@gmail.com"><span class="label">Email</span></a></li>
 								</ul>
 							</section>
 						</div>
