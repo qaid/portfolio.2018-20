@@ -154,6 +154,7 @@
 	#titleBar
 	{
 		background: none;
+		display: none;
 	}
 
 		#titleBar .title
@@ -163,6 +164,7 @@
 
 	#titleBar .toggle
 	{
+		display: none;
 		width: 80px;
 		height: 60px;
 	}
@@ -242,7 +244,7 @@
 
 	#header-wrapper
 	{
-		padding: 2em 0;
+		padding: 0;
 	}
 
 	#footer-wrapper
@@ -292,6 +294,9 @@
 
 	#header
 	{
+		background-image: url(/assets/images/hero-bg-with-ux-icons.png);
+		background-size: cover;
+		background-repeat: no-repeat;
 		text-align: center;
 	}
 
@@ -318,8 +323,8 @@
 
 	#banner
 	{
-		margin: 2em 0 4em 0 !important;
-		padding: 6em 0;
+		margin: 0 !important;
+		padding: 0;
 	}
 
 		#banner header
@@ -327,17 +332,60 @@
 			padding: 1.5em 1em 1.5em 1em;
 		}
 
-			#banner header h2
+			#banner header h2.name
 			{
-				font-size: 1.5em;
+				font-size: 2em;
 				line-height: 1.5em;
 				margin: 0 0 0.25em 0;
 			}
 
+			#banner header h2.role
+			{
+				font-size: 1.5em;
+			}
+
+			#banner header h2.factoid
+			{
+				font-size: 1.0em;
+			}
+
 			#banner header p
 			{
-				font-size: 1.2em;
+				font-size: .75em;
 			}
+
+/*********************************************************************************/
+/* Case Studies                                                                     */
+/*********************************************************************************/
+
+section.full-width-casestudy
+{
+	max-height: 200px;
+}
+
+.casestudy.image
+{
+	display: none;
+}
+
+.casestudy.text 
+{
+	width: 100% !important;
+	padding: 0;
+	margin: 0 0.5em;
+}
+
+.casestudy.text p
+{
+	font-size:1em;
+}
+
+ul.skillset 
+{
+	display: none !important;
+}
+
+
 
 /*********************************************************************************/
 /* Copyright                                                                     */
