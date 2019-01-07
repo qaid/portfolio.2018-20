@@ -669,7 +669,7 @@ section.full-width-casestudy
 
 		.casestudy.image.uxdesign
 		{
-			background-image: url(/assets/images/gallery-of-ideas-centered.png);
+			background-image: url(/assets/images/gallery-of-ideas-centered-styled.png);
 			background-size: cover;
 			background-repeat: no-repeat;
 			border-radius: 5px 0 0 5px;
@@ -677,7 +677,7 @@ section.full-width-casestudy
 
 		.casestudy.image.designmentor
 		{
-			background-image: url(/assets/images/mentoring.png);
+			background-image: url(/assets/images/mentoring-styled.png);
 			background-size: cover;
 			background-repeat: no-repeat;
 			border-radius: 5px 0 0 5px;
@@ -685,7 +685,7 @@ section.full-width-casestudy
 
 		.casestudy.image.stagepresenter
 		{
-			background-image: url(/assets/images/presenting.png);
+			background-image: url(/assets/images/presenting-styled.jpg);
 			background-position: bottom;
 			background-size: cover;
 			background-repeat: no-repeat;
