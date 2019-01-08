@@ -645,6 +645,16 @@ section.full-width-casestudy
 	padding: 0px !important;
 }
 
+section.full-width-external-link 
+{
+	border-radius: 5px;
+	border: 1px solid lightgray;
+	display: inline-block;
+	width: 100%;
+	transition: box-shadow .3s;
+	padding: 0px;
+}
+
 /*section.full-width-casestudy:hover 
 {
 	box-shadow: 0 0 11px rgba(33,33,33,.2);
