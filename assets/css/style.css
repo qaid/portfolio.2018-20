@@ -627,7 +627,7 @@
 
 section.designs div.row 
 {
-	margin: 0 0 1em 0;
+	margin: 1.5em 0 4em 0;
 }
 
 section.full-width-casestudy 
@@ -639,6 +639,7 @@ section.full-width-casestudy
 	align-items: stretch;
 	background: #fff;
 	border-radius: 5px;
+	box-shadow: 1px 1px 10px lightgray;
 	border: 1px solid lightgray;
 	transition: box-shadow .3s;
 	padding: 0px !important;
