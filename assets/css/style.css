@@ -963,13 +963,15 @@ section.full-width-casestudy
 		#copyright .links
 		{
 			display: inline-block;
-			background: #81869E;
-			background: rgba(129,134,158,1);
+			/*background: #81869E;
+			background: rgba(129,134,158,1);*/
+			border: 1px solid #81869E;
 			border-radius: 5px;
 			margin: 0;
 		}
 
 		#copyright .links a 
 		{
-			color: #FBC86B;
+			color: #81869E;
+			font-weight: bold;
 		}
