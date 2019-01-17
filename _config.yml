@@ -1,8 +1,37 @@
-name: Qa'id Jacobs - UX and Product Designer
-title: Qa'id Jacobs - UX and Product Designer
-description: The professional portfolio of Qa'id Jacobs
-paginate: 10
-baseurl: ''
-collections:
-- medium
-- designs
+# site settings
+title: Qa'id Jacobs UX Designer and Mentor
+subtitle: User Experience Designer and Mentor
+email: working.qaid@gmail.com
+description: The portfolio website of Qa'id Jacobs
+baseurl: "" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author: Qa'id Jacobs
+street_address: 
+city: 
+state: 
+zip_code: 
+country: 
+phone: 
+
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url: https://github.com/qaid
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://instagram.com/qaid
+linkedin_url: https://www.linkedin.com/in/qaidjacobs/
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/qaidj
+email_link: mailto:working.qaid@gmail.com
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed

@@ -1,55 +1,58 @@
-		<!-- Footer -->
-			<div id="footer-wrapper">
-				<section id="footer" class="container">
-					<div class="row">
-						<div class="8u">
-							<section>
-								<header>
-									<h2>Some of my writing</h2>
-								</header>
-								<ul class="dates">
-								{% for post in site.medium reversed limit:6 %}
-									<li>
-										<span class="date">{{ post.date | date: "%b"}} <strong>{{ post.date | date: "%d"}}</strong></span>
-										<h3><a href="{{ post.external_url }}">{{ post.title }}</a></h3>
-										{{ post.excerpt }}
-									</li>
-								{% endfor %}
-								</ul>
-							</section>
-						</div>
-						<div class="4u">
-							<section>
-								<header>
-									<h2>About Me</h2>
-								</header>
-								<a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/qaid-jacobs-in-chair.jpg" alt="Qaid Jacobs up close and personal" /></a>
-								<p>
-									My name is Qa&rsquo;id. I'm a designer and thinker cut from a different cloth. I've done creative and strategic work in 5 different industries over the past 15 years. I've got strong opinions that are usually loosely held. I believe that Time is short and Life is grand. Connect with me and let's do something meaningful. My full <a href="https://resume.qaidjacobs.com" title="Qa'id's online resume and CV">CV and Resume are online at resume.qaidjacobs.com</a>.
-								</p>
-								<ul class="social">
-									<li><a class="icon fa-linkedin" aria-hidden="true" href="https://linkedin.com/in/qaidjacobs"><span class="label">LinkedIn</span></a></li>
-									<li><a class="icon fa-twitter" aria-hidden="true" href="https://twitter.com/qaidj"><span class="label">Twitter</span></a></li>
-									<li><a class="icon fa-instagram" aria-hidden="true" href="https://instagram.com/qaid"><span class="label">SoundCloud</span></a></li>
-									<li><a class="icon fa-envelope" aria-hidden="true" href="mailto:contact.qaid@gmail.com"><span class="label">Email</span></a></li>
-								</ul>
-							</section>
-						</div>
-					</div>
-					<div class="row">
-						<div class="12u">
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				{% if site.twitter_url %}
+				<li><a href="{{ site.twitter_url }}" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+				{% endif %}
+				{% if site.googleplus_url %}
+				<li><a href="{{ site.googleplus_url }}" class="icon alt fa-google-plus" target="_blank"><span class="label">Google+</span></a></li>
+				{% endif %}
+				{% if site.facebook_url %}
+				<li><a href="{{ site.facebook_url }}" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+				{% endif %}
+				{% if site.instagram_url %}
+				<li><a href="{{ site.instagram_url }}" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+				{% endif %}
+				{% if site.pinterest_url %}
+				<li><a href="{{ site.pinterest_url }}" class="icon alt fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
+				{% endif %}
+				{% if site.500px_url %}
+				<li><a href="{{ site.500px_url }}" class="icon alt fa-500px" target="_blank"><span class="label">500px</span></a></li>
+				{% endif %}
+				{% if site.gitlab_url %}
+				<li><a href="{{ site.gitlab_url }}" class="icon alt fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
+				{% endif %}
+				{% if site.github_url %}
+				<li><a href="{{ site.github_url }}" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+				{% endif %}
+				{% if site.slack_url %}
+				<li><a href="{{ site.slack_url }}" class="icon alt fa-slack" target="_blank"><span class="label">Slack</span></a></li>
+				{% endif %}
+				{% if site.linkedin_url %}
+				<li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				{% endif %}
+				{% if site.email_link %}
+				<li><a href="{{ site.email_link }}" class="icon alt fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+				{% endif %}
+			</ul>
+			<ul class="copyright">
+				<li>&copy; {{ site.title }}</li>
+				<li>Design base: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+				<li>Jekyll integration base: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
 
-							<!-- Copyright -->
-								<div id="copyright">
-									<ul class="links">
-										<li>&copy; {{ 'now' | date: "%Y" }}. Qa&rsquo;id Jacobs. All rights reserved.</li><li>Design based on an HTML5 UP theme and a Jekyll Template developed by Cloud Cannon. Details in <a href="https://github.com/qaid/qaidjacobs.com" title="See this website project on GitHub">my Github project</a>.</li>
-									</ul>
-								</div>
+			</ul>
+		</div>
+	</footer>
 
-						</div>
-					</div>
-				</section>
-			</div>
-	{% include google_analytics.html %}
-	</body>
-</html>
+</div>
+
+<!-- Scripts -->
+	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
+	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
+	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>
+	{% include fading-text.js %}
