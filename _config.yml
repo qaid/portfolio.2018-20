@@ -18,15 +18,12 @@ tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
 # social settings
-500px_url:
-facebook_url:
 github_url: https://github.com/qaid
-gitlab_url: 
-googleplus_url: 
 instagram_url: https://instagram.com/qaid
 linkedin_url: https://www.linkedin.com/in/qaidjacobs/
-pinterest_url:
-slack_url:
+resume_url: https://resume.qaidjacobs.com
+medium_url: https://blog.qaidjacobs.com
+spotify_url: https://open.spotify.com/user/djhumble?si=3s9HfXuDT4KzqMP15Ymh2Q
 twitter_url: https://twitter.com/qaidj
 email_link: mailto:working.qaid@gmail.com
 
