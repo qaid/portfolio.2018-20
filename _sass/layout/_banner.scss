@@ -75,6 +75,8 @@
 			.content {
 				@include vendor('display', 'flex');
 				@include vendor('align-items', 'center');
+				font-size: 120%;
+				font-weight: bold;
 				margin: 0 0 _size(element-margin) 0;
 
 				> * {

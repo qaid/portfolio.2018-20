@@ -15,7 +15,9 @@ nav-menu: true
 		<header class="major">
 			<h2>Making the Blockchain accessible for BizzyLabs</h2>
 		</header>
-		<p>During the recent past, "Blockchain technology" is a term that's been floating around in a lot of people's conversations. At <a href="https://getbizzy.com">BizzyLabs</a>, we've been doing our best to leverage blockchain as more than just a buzzword, instead we are rolling out a platform that will establish a standard for communicating and maintaining career histories. As the UX Designer on this project, I identified a number of challenges:</p>
+		<p>
+		<span class="image left"><img src="assets/images/Bizzy-Logo-Web-96.png" alt="BizzyLabs app logo"></span>	
+		During the recent past, "Blockchain technology" is a term that's been floating around in a lot of people's conversations. At <a href="https://getbizzy.com">BizzyLabs</a>, we've been doing our best to leverage blockchain as more than just a buzzword, instead we are rolling out a platform that will establish a standard for communicating and maintaining career histories. As the UX Designer on this project, I identified a number of challenges:</p>
 
 		<ul>
 			<li>Research the roles and features of competitors like Indeed, LinkedIn, and Glassdoor.</li>
@@ -59,6 +61,7 @@ nav-menu: true
 	<section>
 		<a class="image">
 			<img src="assets/images/screen-design-montage.jpg" alt="" data-position="25% 25%" />
+			<span class="caption">A few of my screen designs for BizzyLabs</span>
 		</a>
 		<div class="content">
 			<div class="inner">
