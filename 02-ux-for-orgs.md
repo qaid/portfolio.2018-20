@@ -82,7 +82,7 @@ nav-menu: true
 			<h2>Connecting Pets and Owners through Milo</h2>
 		</header>
 		<p>
-		<span class="image left"><img src="assets/images/project-image-milo-surrey-hotel.jpg" alt="A fancy person and their fancy dog"></span>	
+		<span class="image left"><img src="assets/images/drippy-puppy-small.jpg" alt="A fancy drippy dog"></span>	
 		Amsterdam is a city with a healthy - if nascent - start up scene. Recently I teamed up with a small outfit aiming to make an impact on the local pet care and nutrition landscape with with a pet nutrition plan and delivery service called Milo. Though I don't have any pets at the moment (7-year-olds don't count, right??) the market potential was immediately clear to me. Perhaps most exciting was the design challenge that included a website/app, a delivery service, and the physical product that would be put in customers' hands. It didn't take long, however, to realize that I would first have to address some foundational design challenges:</p>
 		<ul>
 			<li>Lead the team in establishing the brand identity and values.</li>
