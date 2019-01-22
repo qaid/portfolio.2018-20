@@ -73,4 +73,52 @@ nav-menu: true
 		</div>
 	</section>
 </section>
+
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h2>Connecting Pets and Owners through Milo</h2>
+		</header>
+		<p>
+		<span class="image left"><img src="assets/images/project-image-milo-surrey-hotel.jpg" alt="A fancy person and their fancy dog"></span>	
+		Amsterdam is a city with a healthy - if nascent - start up scene. Recently I teamed up with a small outfit aiming to make an impact on the local pet care and nutrition landscape with with a pet nutrition plan and delivery service called Milo. Though I don't have any pets at the moment (7-year-olds don't count, right??) the market potential was immediately clear to me. Perhaps most exciting was the design challenge that included a website/app, a delivery service, and the physical product that would be put in customers' hands. It didn't take long, however, to realize that I would first have to address some foundational design challenges:</p>
+		<ul>
+			<li>Lead the team in establishing the brand identity and values.</li>
+			<li>Hone the vision of the multi-dimensional product offering itself.</li>
+		</ul>
+	</div>
+</section>
+<!-- Two -->
+<section id="two" class="spotlights">
+	<section>
+		<a class="image">
+			<img src="assets/images/case-study-milo-brand-strategy.jpg" alt="Qa'id's UX flows and charts" data-position="top center" />
+			<span class="caption">A couple of brand workshop artifacts</span>
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Brand Identity and Vision</h3>
+				</header>
+				<p>In order to plumb the depths of the ideas and intuition of the founder and other team members, I conducted a custom remix of a Design Sprint and Discovery Workshop delivered over the course of two days. The goal was to establish a clear, internalized understanding of what the company was all about (now and into the future) and where it fits into the overall pet care and nutrition landscape. Through ideation exercises like crazy-8's, word-banking, and brand targeting/spectra, along with a thorough competitive analysis across various dimensions, I lead the team to a foundational brand identity upon which we could develop actual product.</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<a class="image">
+			<img src="assets/images/milo-wireframes-montage.jpg" alt="Qa'id's wireframes for Milo pet nutrition delivery" data-position="center center" />
+			<span class="caption">A few of my wireframes for Milo's app</span>
+		</a>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Wireframes and Prototypes</h3>
+				</header>
+				<p>With a firm grasp on brand, values, and market opportunities, I fine tuned the product offering through a continuous cycle of feedback and iteration on customer journey maps across all the touch points, wireframes, and clickable prototypes. One of the product's main goals was to establish a long-term, trusting, and genuine relationship between the customer and the brand since the focus (the owner's pet) is a loved and sensitive aspect of their life. My designs leveraged transparency, clarity, and a personable tone-of-voice in order to deliver on those objectives.</p> 
+			</div>
+		</div>
+	</section>
+</section>
 </div>
