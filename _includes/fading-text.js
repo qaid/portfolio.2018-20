@@ -18,7 +18,7 @@
 			"🤓 Astronomy and Cosmology are my preferred cocktail party convo subjects.",
 			"Many people say that Shaka King and I are doppelgängers. I can see it.",
 			"I embrace borderless, empathy-powered user experience design.",
-			"Within the next 10 years I hope to speak in front of an audience of 5,0000.",
+			"Within the next 10 years I hope to speak in front of an audience of 5,000.",
 			"I hope to continuously be responsible for the success of other people."
 			];
 
