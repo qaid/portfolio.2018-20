@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-landing-title: 'Qaʼid Jacobs - UX Designer and Mentor'
+landing-title: 'Qaʼid Jacobs - UX Designer & Creative Director'
 description: null
 image: null
 author: null
