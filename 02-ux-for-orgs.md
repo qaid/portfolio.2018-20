@@ -1,6 +1,6 @@
 ---
 layout: landing
-title: UX Design for Organizations
+title: Organizational UX Design
 description: When systems and and product needs are complex, I rely on my toolkit of user-centered, empathy-powered approaches.
 image: assets/images/qaid-jacobs-leads-design-sprint.jpg
 nav-menu: true
